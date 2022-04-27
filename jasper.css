@@ -1,0 +1,163 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(constellation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.card {
+    
+    position: relative; right: 150px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 18px;
+    background: rgb(133, 207, 212);
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 0.9);
+    text-align: center; 
+}
+
+.card-image1 {
+
+    grid-area: image;
+    background: url(https://w0.peakpx.com/wallpaper/463/58/HD-wallpaper-cancer-glass-sign-blue-rhombic-background-creative-art-cancer-zodiac-symbol-astrology-zodiac-signs-cancer-horoscope-sign-cancer-astrological-sign-cancer-zodiac-sign.jpg);
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+
+.card-text {
+
+    grid-area: text;
+    
+}
+
+
+.card-text h1 {
+
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: rgb(6, 6, 124);
+}
+.card-text h2 {
+
+ margin-top: 1px;  
+ font-weight: lighter;
+ 
+ font-size: 17px;
+
+}
+
+.card-text h3 {
+
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-size: 17px;
+
+   
+}
+
+.p1 {
+
+    margin-top: 50px;
+
+}
+
+.back-btn {
+
+    position: relative; right: 170px ;bottom: 300px;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    float: left;
+    margin: 20px;
+    border-radius: 100px;
+    background-color: aqua;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.card2 {
+    
+    position: relative; left: 20px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 18px;
+    background: rgb(133, 207, 212);
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 0.9);
+    text-align: center; 
+}
+
+.card-image2 {
+
+    grid-area: image;
+    background: url(https://www.sbs.com.au/radio/sites/sbs.com.au.radio/files/styles/body_image/public/snake.jpg?itok=xfo3viw1&mtime=1470009549);
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+
+.card-text {
+
+    grid-area: text;
+    
+}
+
+
+.card-text h1 {
+
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: rgb(6, 6, 124);
+}
+.card-text h2 {
+
+ margin-top: 1px;  
+ font-weight: lighter;
+ 
+ font-size: 17px;
+
+}
+
+.card-text h3 {
+
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-size: 17px;
+
+   
+}
+
+.p1 {
+    text-align:left;
+    margin-top: 50px;
+
+}

@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(https://images.hdqwalls.com/wallpapers/milky-way-stars-galaxy-constellations-5k-uz.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Josefin Sans',sans-serif;
+
+}
+
+h1 {
+    padding-top: 20px;
+    color: rgb(14, 255, 255);
+    font-style: oblique
+
+
+}
+
+.wrapper h1{
+
+ font-family: 'Allura', cursive;
+ font-size: 70px;
+ margin-bottom: 30px;
+ text-align: center;
+
+}
+
+.team{
+
+  display: flex;
+  text-align: center;
+  width: auto;  
+
+}
+
+.team .team_member { 
+
+    background-image: url(https://images.hdqwalls.com/download/blue-diagonal-lines-abstract-ld-1080x2280.jpg);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    position: relative;
+
+
+}
+
+.team .team_member h3 {
+    margin-bottom: 30px;
+    position: center;
+    color: #04ffff;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member .members_img {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.team .team_member .team_img img{
+
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+}
+
+.back-btn {
+
+    border: none;
+    padding: 10px 50px 10px 50px;
+    float: left;
+    margin: 20px;
+    border-radius: 100px;
+    background-color: aqua;
+    font-weight: 600;
+
+}
